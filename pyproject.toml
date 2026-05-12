@@ -1,0 +1,23 @@
+[project]
+name = "alphaearth-population"
+version = "0.1.0"
+description = "Probabilistic population disaggregation using AlphaEarth features"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "torch",
+    "matplotlib",
+    "scipy",
+    "scikit-learn",
+    "jupyterlab",
+    "tqdm",
+]
+
+[project.scripts]
+alphaearth-population = "alphaearth_population.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
