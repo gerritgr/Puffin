@@ -1,8 +1,8 @@
-# AlphaEarth Population Disaggregation
+# Puffin — Probabilistic Uncertainty for Fine-scale Feature Inference Network Method
 
 Probabilistic neural downscaling of coarse population density using high-resolution AlphaEarth embeddings.
 
-This project predicts fine-scale population density on a `100 × 100` grid from AlphaEarth features, while training only against coarse `10 × 10` population ground truth. Instead of producing only point estimates, the model predicts a probability distribution for each fine cell and is trained through the likelihood of the observed coarse aggregate.
+Puffin predicts fine-scale population density on a `100 × 100` grid from AlphaEarth features, while training only against coarse `10 × 10` population ground truth. Instead of producing only point estimates, Puffin predicts a probability distribution for each fine cell and is trained through the likelihood of the observed coarse aggregate.
 
 ## Project Layout
 
