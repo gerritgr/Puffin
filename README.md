@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo_color" alt="PUFFIN logo" width="70">
+</p>
+
 # Puffin
 
 We introduce **PUFFIN**: **P**robabilistic **U**ncertainty for **F**ine-scale **F**eature **I**nference **N**etworks.
