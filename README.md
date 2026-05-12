@@ -1,8 +1,9 @@
-# Puffin — Probabilistic Uncertainty for Fine-scale Feature Inference Network Method
+# Puffin
 
-Probabilistic neural downscaling of coarse population density using high-resolution AlphaEarth embeddings.
+We introduce **PUFFIN**: **P**robabilistic **U**ncertainty for **F**ine-scale **F**eature **I**nference **N**etworks.
 
-Puffin predicts fine-scale population density on a `100 × 100` grid from AlphaEarth features, while training only against coarse `10 × 10` population ground truth. Instead of producing only point estimates, Puffin predicts a probability distribution for each fine cell and is trained through the likelihood of the observed coarse aggregate.
+PUFFIN is a probabilistic neural downscaling method that uses high-resolution AlphaEarth embeddings as covariates to infer fine-scale spatial patterns from coarse aggregate observations. We investigate how well this framework can predict a range of sociological, demographic, economic, and political variables of interest, including population density, demographic composition, political preferences, income, wealth, and related indicators.
+
 
 ## Project Layout
 
