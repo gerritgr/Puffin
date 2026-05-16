@@ -4,6 +4,13 @@
 
 # Puffin
 
+## TL;DR
+
+- PUFFIN probabilistically downscales coarse population totals to fine-scale maps using high-resolution AlphaEarth features.
+- It predicts both mean and uncertainty (full distributions), not only point estimates.
+- Training matches aggregated fine-scale predictions to observed coarse totals with a Gaussian likelihood.
+- The workflow is notebook-first: preprocess data, train/evaluate in notebooks, and inspect posterior maps + calibration diagnostics.
+
 We introduce **PUFFIN**: **P**robabilistic **U**ncertainty for **F**ine-scale **F**eature **I**nference **N**etworks.
 
 PUFFIN is a probabilistic neural downscaling method that uses high-resolution AlphaEarth embeddings as covariates to infer fine-scale spatial patterns from coarse aggregate observations. We investigate how well this framework can predict a range of sociological, demographic, economic, and political variables of interest, including population density, demographic composition, political preferences, income, wealth, and related indicators.
