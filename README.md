@@ -4,6 +4,17 @@
 
 # Puffin
 
+## TL;DR
+
+PUFFIN is a probabilistic neural downscaling project that uses high-resolution AlphaEarth features to infer fine-scale population-like variables from coarse aggregate observations, with calibrated uncertainty estimates.
+
+To run it: install dependencies, place the required `.npy` inputs in `data/raw/`, start JupyterLab, and execute `notebooks/01_probabilistic_disaggregation.ipynb`.
+
+```bash
+uv sync
+uv run jupyter lab
+```
+
 We introduce **PUFFIN**: **P**robabilistic **U**ncertainty for **F**ine-scale **F**eature **I**nference **N**etworks.
 
 PUFFIN is a probabilistic neural downscaling method that uses high-resolution AlphaEarth embeddings as covariates to infer fine-scale spatial patterns from coarse aggregate observations. We investigate how well this framework can predict a range of sociological, demographic, economic, and political variables of interest, including population density, demographic composition, political preferences, income, wealth, and related indicators.
