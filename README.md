@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo_color.jpg" alt="PUFFIN logo" width="90">
+  <img src="logo_color.jpg" alt="PUFFIN logo" width="100">
 </p>
 
 # Puffin
