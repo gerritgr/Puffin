@@ -1,0 +1,182 @@
+[
+  {
+    "target": "gun_violence",
+    "level": "tract",
+    "n_regions": 83774,
+    "n_cells": 7980473,
+    "n_inhab": 252290,
+    "methods": {
+      "region_avg": {
+        "within_all": 0.0,
+        "within_inhab": 0.0,
+        "cell_r2_all": 0.1557,
+        "cell_r2_inhab": -0.3024
+      },
+      "bicubic": {
+        "within_all": -0.0788,
+        "within_inhab": -0.1174,
+        "cell_r2_all": 0.0891,
+        "cell_r2_inhab": -0.2784,
+        "conserves": true
+      },
+      "goodman": {
+        "within_all": -0.0751,
+        "within_inhab": -0.0973,
+        "cell_r2_all": 0.0922,
+        "cell_r2_inhab": -0.2674,
+        "folds": [
+          {
+            "fold": 0,
+            "lambda_rel": 0.01,
+            "n_train_regions": 50839,
+            "n_val_regions": 16577
+          },
+          {
+            "fold": 1,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 50854,
+            "n_val_regions": 16358
+          },
+          {
+            "fold": 2,
+            "lambda_rel": 0.004641588833612773,
+            "n_train_regions": 50280,
+            "n_val_regions": 16562
+          },
+          {
+            "fold": 3,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 49497,
+            "n_val_regions": 16932
+          },
+          {
+            "fold": 4,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 49852,
+            "n_val_regions": 17345
+          }
+        ]
+      }
+    }
+  },
+  {
+    "target": "jobs",
+    "level": "tract",
+    "n_regions": 83774,
+    "n_cells": 7980473,
+    "n_inhab": 2236070,
+    "methods": {
+      "region_avg": {
+        "within_all": 0.0,
+        "within_inhab": 0.0,
+        "cell_r2_all": 0.0867,
+        "cell_r2_inhab": 0.0937
+      },
+      "bicubic": {
+        "within_all": 0.0568,
+        "within_inhab": 0.0684,
+        "cell_r2_all": 0.1386,
+        "cell_r2_inhab": 0.1742,
+        "conserves": true
+      },
+      "goodman": {
+        "within_all": 0.0502,
+        "within_inhab": 0.0726,
+        "cell_r2_all": 0.1325,
+        "cell_r2_inhab": 0.1788,
+        "folds": [
+          {
+            "fold": 0,
+            "lambda_rel": 0.021544346900318822,
+            "n_train_regions": 50839,
+            "n_val_regions": 16577
+          },
+          {
+            "fold": 1,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 50854,
+            "n_val_regions": 16358
+          },
+          {
+            "fold": 2,
+            "lambda_rel": 0.01,
+            "n_train_regions": 50280,
+            "n_val_regions": 16562
+          },
+          {
+            "fold": 3,
+            "lambda_rel": 0.1,
+            "n_train_regions": 49497,
+            "n_val_regions": 16932
+          },
+          {
+            "fold": 4,
+            "lambda_rel": 0.002154434690031882,
+            "n_train_regions": 49852,
+            "n_val_regions": 17345
+          }
+        ]
+      }
+    }
+  },
+  {
+    "target": "population",
+    "level": "tract",
+    "n_regions": 83774,
+    "n_cells": 7980473,
+    "n_inhab": 5662908,
+    "methods": {
+      "region_avg": {
+        "within_all": 0.0,
+        "within_inhab": 0.0,
+        "cell_r2_all": 0.2224,
+        "cell_r2_inhab": 0.2308
+      },
+      "bicubic": {
+        "within_all": -0.4075,
+        "within_inhab": -0.2969,
+        "cell_r2_all": -0.0945,
+        "cell_r2_inhab": 0.0346,
+        "conserves": true
+      },
+      "goodman": {
+        "within_all": -1.0366,
+        "within_inhab": -0.9014,
+        "cell_r2_all": -0.5837,
+        "cell_r2_inhab": -0.4058,
+        "folds": [
+          {
+            "fold": 0,
+            "lambda_rel": 0.002154434690031882,
+            "n_train_regions": 50839,
+            "n_val_regions": 16577
+          },
+          {
+            "fold": 1,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 50854,
+            "n_val_regions": 16358
+          },
+          {
+            "fold": 2,
+            "lambda_rel": 0.021544346900318822,
+            "n_train_regions": 50280,
+            "n_val_regions": 16562
+          },
+          {
+            "fold": 3,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 49497,
+            "n_val_regions": 16932
+          },
+          {
+            "fold": 4,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 49852,
+            "n_val_regions": 17345
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "population_area_variance_on": {
+    "within_all": 0.36489467363265166,
+    "within_all_std": 0.015193866607353404,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "n_cells": 7980473
+  },
+  "population_area_variance_off": {
+    "within_all": 0.2598857806992227,
+    "within_all_std": 0.008241221313526883,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "n_cells": 7980473
+  },
+  "jobs_area_variance_on": {
+    "within_all": 0.20803059517188374,
+    "within_all_std": 0.002070063623601653,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "n_cells": 7980473
+  },
+  "jobs_area_variance_off": {
+    "within_all": 0.11216742936822581,
+    "within_all_std": 0.0022280742758466815,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "n_cells": 7980473
+  }
+}

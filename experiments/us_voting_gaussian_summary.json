@@ -1,0 +1,103 @@
+[
+  {
+    "target": "votes_dem",
+    "level": "county",
+    "n_regions": 3096,
+    "n_cells": 163690,
+    "n_inhab": 162909,
+    "within_all": -0.3063,
+    "within_all_std": 0.0111,
+    "within_inhab": -0.3062,
+    "within_inhab_std": 0.011,
+    "cell_r2_all": 0.3481,
+    "cell_r2_inhab": 0.3493,
+    "bc_cell_all": 0.501,
+    "bc_cell_inhab": 0.5019,
+    "cal_cell_90": 0.904,
+    "cal_cell_90_std": 0.0113,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "target": "votes_other",
+    "level": "county",
+    "n_regions": 3096,
+    "n_cells": 163690,
+    "n_inhab": 154582,
+    "within_all": -0.2553,
+    "within_all_std": 0.0314,
+    "within_inhab": -0.2585,
+    "within_inhab_std": 0.031,
+    "cell_r2_all": 0.3277,
+    "cell_r2_inhab": 0.3349,
+    "bc_cell_all": 0.4644,
+    "bc_cell_inhab": 0.4708,
+    "cal_cell_90": 0.9014,
+    "cal_cell_90_std": 0.0055,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "target": "votes_rep",
+    "level": "county",
+    "n_regions": 3096,
+    "n_cells": 163690,
+    "n_inhab": 163346,
+    "within_all": -0.3184,
+    "within_all_std": 0.0178,
+    "within_inhab": -0.3171,
+    "within_inhab_std": 0.0179,
+    "cell_r2_all": 0.3543,
+    "cell_r2_inhab": 0.3551,
+    "bc_cell_all": 0.5103,
+    "bc_cell_inhab": 0.5104,
+    "cal_cell_90": 0.888,
+    "cal_cell_90_std": 0.0104,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "target": "votes_total",
+    "level": "county",
+    "n_regions": 3096,
+    "n_cells": 163690,
+    "n_inhab": 163690,
+    "within_all": -0.4341,
+    "within_all_std": 0.0292,
+    "within_inhab": -0.4341,
+    "within_inhab_std": 0.0292,
+    "cell_r2_all": 0.3009,
+    "cell_r2_inhab": 0.3009,
+    "bc_cell_all": 0.5126,
+    "bc_cell_inhab": 0.5126,
+    "cal_cell_90": 0.8983,
+    "cal_cell_90_std": 0.0025,
+    "within_prior_all": -0.4587,
+    "within_prior_all_std": 0.0565,
+    "within_prior_inhab": -0.4587,
+    "cell_r2_prior_all": -0.0914,
+    "cell_r2_prior_inhab": -0.0914,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]

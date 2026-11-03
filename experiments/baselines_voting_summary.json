@@ -1,0 +1,242 @@
+[
+  {
+    "target": "votes_dem",
+    "level": "county",
+    "n_regions": 3096,
+    "n_cells": 163690,
+    "n_inhab": 162909,
+    "methods": {
+      "region_avg": {
+        "within_all": 0.0,
+        "within_inhab": 0.0,
+        "cell_r2_all": 0.501,
+        "cell_r2_inhab": 0.5019
+      },
+      "bicubic": {
+        "within_all": -0.0866,
+        "within_inhab": -0.0869,
+        "cell_r2_all": 0.4578,
+        "cell_r2_inhab": 0.4586,
+        "conserves": true
+      },
+      "goodman": {
+        "within_all": -0.2172,
+        "within_inhab": -0.2177,
+        "cell_r2_all": 0.3926,
+        "cell_r2_inhab": 0.3935,
+        "folds": [
+          {
+            "fold": 0,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 1856,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 1,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 1858,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 2,
+            "lambda_rel": 0.004641588833612773,
+            "n_train_regions": 1858,
+            "n_val_regions": 618
+          },
+          {
+            "fold": 3,
+            "lambda_rel": 0.004641588833612773,
+            "n_train_regions": 1858,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 4,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 1858,
+            "n_val_regions": 618
+          }
+        ]
+      }
+    }
+  },
+  {
+    "target": "votes_other",
+    "level": "county",
+    "n_regions": 3096,
+    "n_cells": 163690,
+    "n_inhab": 154582,
+    "methods": {
+      "region_avg": {
+        "within_all": 0.0,
+        "within_inhab": 0.0,
+        "cell_r2_all": 0.4644,
+        "cell_r2_inhab": 0.4708
+      },
+      "bicubic": {
+        "within_all": -0.0586,
+        "within_inhab": -0.0621,
+        "cell_r2_all": 0.433,
+        "cell_r2_inhab": 0.4382,
+        "conserves": true
+      },
+      "goodman": {
+        "within_all": -0.1573,
+        "within_inhab": -0.1627,
+        "cell_r2_all": 0.3802,
+        "cell_r2_inhab": 0.3854,
+        "folds": [
+          {
+            "fold": 0,
+            "lambda_rel": 0.00021544346900318823,
+            "n_train_regions": 1856,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 1,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 1858,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 2,
+            "lambda_rel": 0.001,
+            "n_train_regions": 1858,
+            "n_val_regions": 618
+          },
+          {
+            "fold": 3,
+            "lambda_rel": 0.002154434690031882,
+            "n_train_regions": 1858,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 4,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 1858,
+            "n_val_regions": 618
+          }
+        ]
+      }
+    }
+  },
+  {
+    "target": "votes_rep",
+    "level": "county",
+    "n_regions": 3096,
+    "n_cells": 163690,
+    "n_inhab": 163346,
+    "methods": {
+      "region_avg": {
+        "within_all": 0.0,
+        "within_inhab": -0.0,
+        "cell_r2_all": 0.5103,
+        "cell_r2_inhab": 0.5104
+      },
+      "bicubic": {
+        "within_all": -0.0753,
+        "within_inhab": -0.0753,
+        "cell_r2_all": 0.4734,
+        "cell_r2_inhab": 0.4735,
+        "conserves": true
+      },
+      "goodman": {
+        "within_all": -0.2662,
+        "within_inhab": -0.2662,
+        "cell_r2_all": 0.3799,
+        "cell_r2_inhab": 0.38,
+        "folds": [
+          {
+            "fold": 0,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 1856,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 1,
+            "lambda_rel": 0.0002154434690031882,
+            "n_train_regions": 1858,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 2,
+            "lambda_rel": 0.01,
+            "n_train_regions": 1858,
+            "n_val_regions": 618
+          },
+          {
+            "fold": 3,
+            "lambda_rel": 0.002154434690031882,
+            "n_train_regions": 1858,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 4,
+            "lambda_rel": 0.00021544346900318823,
+            "n_train_regions": 1858,
+            "n_val_regions": 618
+          }
+        ]
+      }
+    }
+  },
+  {
+    "target": "votes_total",
+    "level": "county",
+    "n_regions": 3096,
+    "n_cells": 163690,
+    "n_inhab": 163690,
+    "methods": {
+      "region_avg": {
+        "within_all": 0.0,
+        "within_inhab": 0.0,
+        "cell_r2_all": 0.5126,
+        "cell_r2_inhab": 0.5126
+      },
+      "bicubic": {
+        "within_all": -0.1042,
+        "within_inhab": -0.1042,
+        "cell_r2_all": 0.4617,
+        "cell_r2_inhab": 0.4617,
+        "conserves": true
+      },
+      "goodman": {
+        "within_all": -0.3134,
+        "within_inhab": -0.3134,
+        "cell_r2_all": 0.3598,
+        "cell_r2_inhab": 0.3598,
+        "folds": [
+          {
+            "fold": 0,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 1856,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 1,
+            "lambda_rel": 9.999999999999999e-06,
+            "n_train_regions": 1858,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 2,
+            "lambda_rel": 0.01,
+            "n_train_regions": 1858,
+            "n_val_regions": 618
+          },
+          {
+            "fold": 3,
+            "lambda_rel": 0.004641588833612773,
+            "n_train_regions": 1858,
+            "n_val_regions": 620
+          },
+          {
+            "fold": 4,
+            "lambda_rel": 1e-08,
+            "n_train_regions": 1858,
+            "n_val_regions": 618
+          }
+        ]
+      }
+    }
+  }
+]

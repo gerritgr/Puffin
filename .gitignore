@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv
+.uv/
+
+# Data (large files -- track structure only)
+data/raw/
+data/processed/
+data/splits/
+
+# Experiment outputs (not tracked -- too large / ephemeral)
+experiments/runs/
+experiments/runs_old/
+
+# Figures (regenerate from the scripts in visualizations/)
+experiments/figures/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs / temp
+*.log
+*.tmp
+run.out
+
+# Local working material kept out of the public repo
+# (paper sources, drafts, scratch files)
+old/
+archive/

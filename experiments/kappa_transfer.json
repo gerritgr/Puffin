@@ -1,0 +1,42 @@
+{
+  "own": {
+    "germany_10km_1km": {
+      "kappa_0.9": 2.1720614372864335,
+      "coverage_0.9": 0.8950005353168189
+    },
+    "berlin_1km_100m": {
+      "kappa_0.9": 0.10721084107618788,
+      "coverage_0.9": 0.8967927430241336
+    },
+    "us_pop_tract": {
+      "kappa_0.9": 0.6768185810454338,
+      "coverage_0.9": 0.8998934374146577
+    }
+  },
+  "transfer": {
+    "germany_10km_1km -> berlin_1km_100m": {
+      "kappa": 2.1720614372864335,
+      "coverage_0.9": 0.9993921556708095
+    },
+    "germany_10km_1km -> us_pop_tract": {
+      "kappa": 2.1720614372864335,
+      "coverage_0.9": 0.9730877650414603
+    },
+    "berlin_1km_100m -> germany_10km_1km": {
+      "kappa": 0.10721084107618788,
+      "coverage_0.9": 0.3210115681189224
+    },
+    "berlin_1km_100m -> us_pop_tract": {
+      "kappa": 0.10721084107618788,
+      "coverage_0.9": 0.5036423019473386
+    },
+    "us_pop_tract -> germany_10km_1km": {
+      "kappa": 0.6768185810454338,
+      "coverage_0.9": 0.7099738053150028
+    },
+    "us_pop_tract -> berlin_1km_100m": {
+      "kappa": 0.6768185810454338,
+      "coverage_0.9": 0.9928469483369516
+    }
+  }
+}
